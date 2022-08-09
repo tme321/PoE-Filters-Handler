@@ -1,0 +1,20 @@
+{
+  "name": "poe-filters-handler",
+  "version": "0.0.1",
+  "description": "Path of Exile filter tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tr": "tsc && cd dist && node main.js '../resources/test_filter.filter'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tme321/PoE-Filters-Handler.git"
+  },
+  "author": "Thomas Elliott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tme321/PoE-Filters-Handler/issues"
+  },
+  "homepage": "https://github.com/tme321/PoE-Filters-Handler#readme"
+}

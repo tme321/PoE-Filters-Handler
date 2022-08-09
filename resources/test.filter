@@ -1,0 +1,327 @@
+
+Show # shattering steel sockets usable base
+	AreaLevel < 68 65 21 65
+	SocketGroup "RGRR" "RGRG" "RGRB" "RGGB"
+	Class "Body Armours" "Boots"
+	BaseType "Accumulator Wand" "Aetherwind Gloves" "Alternating Sceptre" "Anarchic Spiritblade"
+	Rarity "Normal"
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 0 0 200 255
+	PlayAlertSound 1 300
+	PlayEffect Blue
+	MinimapIcon 0 Blue Diamond
+
+
+###################################
+# Heavy 2 Hander Recipe Ingredients
+###################################
+	
+#Show # Whetstone
+#	AreaLevel < 42
+#	BaseType == "Blacksmith's Whetstone"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 200 0 255
+#	PlayAlertSound 1 300
+#	PlayEffect Green
+#	MinimapIcon 0 Green Diamond
+#	
+#Show # Magic Rustic Sash
+#	AreaLevel < 42
+#	BaseType == "Rustic Sash"
+#	Rarity == "Magic"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 200 0 255
+#	PlayAlertSound 1 300
+#	PlayEffect Green
+#	MinimapIcon 0 Green Diamond
+#	
+#Show # Rare Rustic Sash	
+#	BaseType == "Rustic Sash"
+#	Rarity == "Rare"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 200 0 0 255
+#	PlayAlertSound 1 300
+#	PlayEffect Red
+#	MinimapIcon 0 Red Diamond	
+#
+#Show # 2 Hander
+#	AreaLevel < 12
+#	BaseType == "Stone Axe"
+#	Rarity == "Normal"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 200 0 255
+#	PlayAlertSound 1 300
+#	PlayEffect Green
+#	MinimapIcon 0 Green Diamond
+#
+#Show # 2 Hander
+#	AreaLevel < 17
+#	BaseType == "Jade Chopper"
+#	Rarity == "Normal"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 200 0 255
+#	PlayAlertSound 1 300
+#	PlayEffect Green
+#	MinimapIcon 0 Green Diamond
+#
+#Show # 2 Hander
+#	AreaLevel < 45
+#	BaseType == "Gilded Axe"
+#	Rarity == "Normal"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 200 0 255
+#	PlayAlertSound 1 300
+#	PlayEffect Green
+#	MinimapIcon 0 Green Diamond
+#	
+#Show # 2 Hander
+#	AreaLevel < 55
+#	BaseType == "Shadow Axe"
+#	Rarity == "Normal"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 200 0 255
+#	PlayAlertSound 1 300
+#	PlayEffect Green
+#	MinimapIcon 0 Green Diamond
+#
+#Show # 2 Hander
+#	AreaLevel < 68
+#	BaseType == "Timber Axe" "Headsman Axe" "Noble Axe" "Abyssal Axe" "Sundering Axe"
+#	Rarity == "Normal"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 200 0 255
+#	PlayAlertSound 1 300
+#	PlayEffect Green
+#	MinimapIcon 0 Green Diamond
+#
+#Show # 2 Hander
+#	AreaLevel < 68
+#	BaseType == "Labrys" "Talon Axe"
+#	Rarity == "Normal"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 0 200 255
+#	PlayAlertSound 1 300
+#	PlayEffect Blue
+#	MinimapIcon 0 Blue Diamond
+#		
+#Show # Small upgrade 2 hander if you can't wait for Gilded Axe
+#	AreaLevel < 40
+#	BaseType == "Poleaxe"
+#	Rarity == "Normal"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 0 200 255
+#	PlayAlertSound 1 300
+#	PlayEffect Blue
+#	MinimapIcon 0 Blue Diamond
+
+##########################################
+# Rare Axes worth IDing
+##########################################
+
+#Show # 2 Hander
+#	AreaLevel < 12
+#	BaseType == "Stone Axe" "Jade Chopper" "Poleaxe" "Gilded Axe" "Shadow Axe" "Timber Axe" "Headsman Axe" "Noble Axe" "Abyssal Axe" "Sundering Axe" "Labrys" "Talon Axe"
+#	Rarity == "Rare"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 200 200 255
+#	PlayAlertSound 1 300
+#	PlayEffect Yellow
+#	MinimapIcon 0 Yellow Diamond
+
+##################################
+# Items Worth IDing based on links
+##################################	
+
+#Show # shattering steel sockets best base
+#	AreaLevel < 18
+#	Rarity == "Rare"
+#	SocketGroup "RGG"
+#	Class "Helmets" "Gloves" "Boots"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 200 200 255
+#	PlayAlertSound 1 300
+#	PlayEffect Yellow
+#	MinimapIcon 0 Yellow Diamond
+#
+#Show # shattering steel sockets best base
+#	AreaLevel < 68
+#	Rarity == "Rare"
+#	SocketGroup "RGRR" "RGRG" "RGRB" "RGGB"
+#	Class "Helmets" "Gloves" "Boots"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 200 200 255
+#	PlayAlertSound 1 300
+#	PlayEffect Yellow
+#	MinimapIcon 0 Yellow Diamond
+#
+#Show # shattering steel sockets usable base
+#	AreaLevel < 18
+#	Rarity == "Rare"
+#	SocketGroup "RGG"
+#	Class "Body Armours" "Boots"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 200 200 255
+#	PlayAlertSound 1 300
+#	PlayEffect Yellow
+#	MinimapIcon 0 Yellow Diamond
+#
+#Show # shattering steel sockets usable base
+#	AreaLevel < 68
+#	Rarity == "Rare"
+#	SocketGroup "RGRR" "RGRG" "RGRB" "RGGB"
+#	Class "Body Armours" "Boots"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 200 200 255
+#	PlayAlertSound 1 300
+#	PlayEffect Yellow
+#	MinimapIcon 0 Yellow Diamond
+	
+############################################################	
+# Sockets for Shattering Steel + Chance to Bleed + Onslaught
+############################################################
+
+#Show # shattering steel sockets best base
+#	AreaLevel < 18
+#	SocketGroup "RGG"
+#	Class "Helmets" "Gloves" "Boots"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 200 0 255
+#	PlayAlertSound 1 300
+#	PlayEffect Green
+#	MinimapIcon 0 Green Diamond
+#
+#Show # shattering steel sockets best base
+#	AreaLevel < 68
+#	SocketGroup "RGRR" "RGRG" "RGRB" "RGGB"
+#	Class "Helmets" "Gloves" "Boots"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 200 0 255
+#	PlayAlertSound 1 300
+#	PlayEffect Green
+#	MinimapIcon 0 Green Diamond
+#
+#Show # shattering steel sockets usable base
+#	AreaLevel < 18
+#	SocketGroup "RGG"
+#	Class "Body Armours" "Boots"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 0 200 255
+#	PlayAlertSound 1 300
+#	PlayEffect Blue
+#	MinimapIcon 0 Blue Diamond
+#
+#Show # shattering steel sockets usable base
+#	AreaLevel < 68
+#	SocketGroup "RGRR" "RGRG" "RGRB" "RGGB"
+#	Class "Body Armours" "Boots"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 0 200 255
+#	PlayAlertSound 1 300
+#	PlayEffect Blue
+#	MinimapIcon 0 Blue Diamond
+	
+
+	
+######################################
+# For Spellslinger swap
+######################################
+
+#Show # $type->rare->shaper $tier->t12
+#	ItemLevel >= 40
+#	BaseType "Carved Wand"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 200 0 255
+#	PlayAlertSound 1 300
+#	PlayEffect Green
+#	MinimapIcon 0 Green Diamond
+#	
+#Show # Corrupting Fever preferred base links
+#	AreaLevel < 68
+#	SocketGroup "RRRB" "RRRG" "RRGB"
+#	Class "Helmets" "Gloves" "Boots"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 200 0 255
+#	PlayAlertSound 1 300
+#	PlayEffect Green
+#	MinimapIcon 0 Green Diamond
+#	
+#Show # Corrupting Fever usable base links
+#	AreaLevel < 68
+#	SocketGroup "RRRB" "RRRG" "RRGB"
+#	Class "Body Armours" "Boots"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 0 200 255
+#	PlayAlertSound 1 300
+#	PlayEffect Blue
+#	MinimapIcon 0 Blue Diamond
+#	
+#Show # Exsanguinate preferred base links
+#	AreaLevel < 68
+#	SocketGroup "BBRR" "BBRG" "BRGG"
+#	Class "Helmets" "Gloves" "Boots"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 200 0 255
+#	PlayAlertSound 1 300
+#	PlayEffect Green
+#	MinimapIcon 0 Green Diamond
+#	
+#Show # Exsanguinate usable base links
+#	AreaLevel < 68
+#	SocketGroup "BBRR" "BBRG" "BRGG"
+#	Class "Body Armours" "Boots"
+#	SetFontSize 45
+#	SetTextColor 255 255 255 255
+#	SetBorderColor 255 255 255 255
+#	SetBackgroundColor 0 0 200 255
+#	PlayAlertSound 1 300
+#	PlayEffect Blue
+#	MinimapIcon 0 Blue Diamond
+
